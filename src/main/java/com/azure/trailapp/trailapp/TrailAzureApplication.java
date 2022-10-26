@@ -11,7 +11,7 @@ public class TrailAzureApplication {
 
 	@GetMapping("/message")
 	public String getMessage(){
-		return "Message received okay";
+		return "Message received";
 	}
 
 	public static void main(String[] args) {
